@@ -1,9 +1,9 @@
-#Procedural Terrain Generation
+# Procedural Terrain Generation
 
-Perlin Noise:
+#### Perlin Noise:
 Generates structured random numbers that follow a smooth gradiet. 
 
-Algorithm for terrain generation:
+#### Algorithm for terrain generation:
 1. Create a 2D grid.
 2. For height, layer multiple levels of noise to add detail maintaining the overall shape.
 3. Maintain 3 noise maps referred to as octaves each for overall shape, boulders and small rocks.
